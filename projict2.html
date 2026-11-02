@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"dir = "rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التسجيل في نادي الطلاب </title>
+</head>
+<body>
+    <form action="">
+         <h1>التسجيل في نادي الطلاب </h1>
+        <fieldset>
+           <legend>
+            المعلومات الشخصية 
+           </legend>
+           <label for="name">الاسم : </label>
+          <input type="text" id="name" placeholder="ادخل الاسم الكامل ">
+          <br> 
+          <label for="date">تاريخ الميلاد  </label>
+          <input type="date" name="" id="date" placeholder="تاريخ الميلاد">
+          <br>
+              <label for="date">الجنس   </label>
+              <input type="radio" name="gen" id="male" value="male">
+              <label for="male">ذكر   </label>
+              <input type="radio" name="gen" id="famele" value="famele">
+              <label for="famele">انثي   </label>
+
+          <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                بيانات الحساب 
+            </legend>
+            <label for="email"> البريد الالكتروني :</label>
+            <input type="email" name="" id="email">
+            <br>
+           <label for="pass"> كلمة السر : </label>
+            <input type="password" name="" id="pass">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                الاهتمامات
+            </legend>
+            <label for="home">الصف</label>
+            <select name="class" id="home">
+                <option value="" selected disabled>اختر</option>
+                <option value="1">الاول</option>
+                <option value="2">الثاني</option>
+            </select>
+            <br>
+               <label for="date">الانشطة   </label>
+              <input type="checkbox" name="act" id="java" value="java">
+              <label for="java">برمجة   </label>
+              <input type="checkbox" name="act" id="design" value="design">
+              <label for="design">تصميم   </label>
+              <br>
+              <h3>لماذا تريد الانضمام</h3>
+              <textarea name="" id="">
+
+              </textarea>
+
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
